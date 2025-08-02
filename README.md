@@ -47,22 +47,35 @@ A real-time **Trip Planner** web application built in 24 hours using the **MERN 
 
 ## 🧳 Folder Structure
 
-## 🧳 Folder Structure
-project-root/
-├── client/ # React + Vite frontend
-│ ├── src/
-│ │ ├── components/
-│ │ ├── pages/
-│ │ ├── assets/
-│ │ └── App.jsx
-├── server/ # Node.js + Express backend
-│ ├── controllers/
-│ ├── models/
-│ ├── routes/
-│ ├── utils/
-│ └── server.js
-└── .env # API keys and DB config
+<details> <summary>📁 Folder Structure (Click to expand)</summary>
+text
+Copy
+Edit
+trip-planner/
+├── client/                     # React + Vite frontend
+│   ├── public/
+│   ├── src/
+│   │   ├── assets/             # Images and static assets
+│   │   ├── components/         # Reusable UI components
+│   │   ├── pages/              # Main pages like Home, Flights, Hotels
+│   │   ├── services/           # Axios API calls
+│   │   ├── App.jsx             # Root component
+│   │   └── main.jsx            # Entry point
+│   ├── index.html
+│   └── vite.config.js
 
+├── server/                     # Node.js + Express backend
+│   ├── controllers/            # Request handlers
+│   ├── models/                 # MongoDB schemas
+│   ├── routes/                 # API routes
+│   ├── utils/                  # Helper functions (e.g. PayPal config)
+│   ├── middleware/             # Auth, error handlers
+│   └── server.js               # Express app entry point
+
+├── .env                        # Environment variables (Mongo URI, PayPal keys)
+├── package.json
+└── README.md
+</details>
 ## setup backend
 cd server
 npm install
