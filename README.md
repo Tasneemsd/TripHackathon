@@ -1,12 +1,89 @@
-# React + Vite
+# 🧭 Trip Planner – MERN Hackathon Project 🥉
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A real-time **Trip Planner** web application built in 24 hours using the **MERN stack (MongoDB, Express, React + Vite, Node.js)**. This smart travel assistant allows users to **book flights, hotels, guides, and pay securely via PayPal** — all in one seamless platform.
 
-Currently, two official plugins are available:
+🏆 **3rd Prize Winner** in a 24-hour Hackathon.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🌍 Features
+- ✈️ Flight Booking (Real-time)
+- 🏨 Hotel Booking with availability check
+- 🧑‍✈️ Guide Booking for local tours
+- 💳 Integrated PayPal Payment Gateway
+- 🔐 Authentication & Authorization
+- 📦 Reusable React Components
+- 🌐 Responsive Design (Mobile + Web)
+- ⚡ Fast loading with Vite + React
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+### 💻 Frontend
+- **React** (with **Vite** for blazing fast builds)
+- React Router
+- TailwindCSS / Bootstrap / Custom CSS (edit as per your project)
+- Axios
+
+### 🧠 Backend
+- **Node.js** + **Express.js**
+- **MongoDB** (Mongoose ODM)
+- RESTful APIs
+- JWT-based Authentication
+
+### 💰 Payments
+- **PayPal API** Integration for secure payments
+
+---
+
+
+## 🔐 Authentication
+- User Signup / Login
+- Token-based route protection
+- Session management using JWT
+
+---
+
+## 🧳 Folder Structure
+
+## 🧳 Folder Structure
+project-root/
+├── client/ # React + Vite frontend
+│ ├── src/
+│ │ ├── components/
+│ │ ├── pages/
+│ │ ├── assets/
+│ │ └── App.jsx
+├── server/ # Node.js + Express backend
+│ ├── controllers/
+│ ├── models/
+│ ├── routes/
+│ ├── utils/
+│ └── server.js
+└── .env # API keys and DB config
+
+## setup backend
+cd server
+npm install
+npm run dev
+
+## setup frontend
+cd ../client
+npm install
+npm run dev
+
+
+🧑‍💻 Developed By
+This project was built collaboratively in a 24-hour Hackathon with my team.
+My Role: I played Team leader role. I actively contributed to the frontend development, creating dynamic React components, integrating PayPal payments, designing pages, and ensuring responsive UI.
+
+🏆 Achievements
+🥉 3rd Prize Winner – Hackathon 2025
+
+Built and deployed within 24 hours
+
+Fully functional MERN app with real-time features
+
+
+
